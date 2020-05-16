@@ -1,0 +1,8 @@
+firstname: Foued,Beligh
+server:
+  port: 8008
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8001
+
