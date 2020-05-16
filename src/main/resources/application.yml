@@ -1,8 +1,15 @@
 firstname: Foued,Beligh
-server:
-  port: 8008
 spring:
+  profiles: default
   cloud:
     config:
       uri: http://localhost:8001
+---
+spring:
+  profiles: other
+  cloud:
+    config:
+      uri: http://localhost:8001
+firstname: jack,tony
+
 
